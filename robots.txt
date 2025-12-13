@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://domivexa.co.uk/sitemap.xml
+
+# Disallow crawling of any admin or private areas (if they exist in the future)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
