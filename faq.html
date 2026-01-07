@@ -176,7 +176,7 @@
                 <div class="faq-list">
                     <div class="faq-item">
                         <h3>How can I contact support?</h3>
-                        <p>You can reach our support team via email at <a href="mailto:support@domivexa.co.uk">support@domivexa.co.uk</a> or call us during business hours at +44 1278 226747. Clients also have direct access to their account manager.</p>
+                        <p>You can reach our support team via email at <a href="mailto:support@domivexa.co.uk">support@domivexa.co.uk</a> or call us during business hours at <span id="company-phone-faq"></span>. Clients also have direct access to their account manager.</p>
                     </div>
 
                     <div class="faq-item">
@@ -229,7 +229,7 @@
                     <h4>Contact</h4>
                     <p><strong>Business Name:</strong> Domivexa Ltd</p>
                     <p><strong>Address:</strong> 4 Great Spilmans, London SE22 8SZ, United Kingdom</p>
-                    <p><strong>Phone:</strong> +44 1278 226747</p>
+                    <p><strong>Phone:</strong> <span id="company-phone-footer"></span></p>
                     <p><strong>Email:</strong> info@domivexa.co.uk</p>
                 </div>
             </div>
@@ -238,5 +238,10 @@
             </div>
         </div>
     </footer>
+<script>
+  var companyPhone = "+44 1278 226747";
+  document.getElementById("company-phone-faq").textContent = companyPhone;
+  document.getElementById("company-phone-footer").textContent = companyPhone;
+</script>
 </body>
 </html>

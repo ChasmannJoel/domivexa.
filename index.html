@@ -146,7 +146,7 @@
                     <h4>Contact</h4>
                     <p><strong>Business Name:</strong> Domivexa Ltd</p>
                     <p><strong>Address:</strong> 4 Great Spilmans, London SE22 8SZ, United Kingdom</p>
-                    <p><strong>Phone:</strong> +44 1278 226747</p>
+                    <p><strong>Phone:</strong> <span id="company-phone"></span></p>
                     <p><strong>Email:</strong> info@domivexa.co.uk</p>
                 </div>
             </div>
@@ -157,6 +157,9 @@
     </footer>
 
     <script>
+        var companyPhone = "+44 1278 226747";
+        document.getElementById("company-phone").textContent = companyPhone;
+        
         // Cookie Banner
         function acceptCookies() {
             localStorage.setItem('cookiesAccepted', 'true');

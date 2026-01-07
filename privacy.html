@@ -46,7 +46,7 @@
                 <strong>Registered Address:</strong> 4 Great Spilmans, London SE22 8SZ, United Kingdom<br>
                 <strong>Company Registration Number:</strong> 7447351<br>
                 <strong>Email:</strong> privacy@domivexa.co.uk<br>
-                <strong>Phone:</strong> +44 1278 226747</p>
+                <strong>Phone:</strong> <span id="company-phone-controller"></span></p>
 
                 <h2>2. Information We Collect</h2>
                 <h3>2.1 Information You Provide to Us</h3>
@@ -217,7 +217,7 @@
                     <strong>Domivexa Ltd</strong><br>
                     4 Great Spilmans, London SE22 8SZ, United Kingdom<br>
                     Email: <a href="mailto:privacy@domivexa.co.uk">privacy@domivexa.co.uk</a><br>
-                    Phone: +44 1278 226747
+                    Phone: <span id="company-phone-contact"></span>
                 </p>
             </div>
         </div>
@@ -253,7 +253,7 @@
                     <h4>Contact</h4>
                     <p><strong>Business Name:</strong> Domivexa Ltd</p>
                     <p><strong>Address:</strong> 4 Great Spilmans, London SE22 8SZ, United Kingdom</p>
-                    <p><strong>Phone:</strong> +44 1278 226747</p>
+                    <p><strong>Phone:</strong> <span id="company-phone-footer"></span></p>
                     <p><strong>Email:</strong> info@domivexa.co.uk</p>
                 </div>
             </div>
@@ -262,5 +262,11 @@
             </div>
         </div>
     </footer>
+<script>
+  var companyPhone = "+44 1278 226747";
+  document.getElementById("company-phone-controller").textContent = companyPhone;
+  document.getElementById("company-phone-contact").textContent = companyPhone;
+  document.getElementById("company-phone-footer").textContent = companyPhone;
+</script>
 </body>
 </html>
