@@ -1,2 +1,3 @@
 // Company Configuration
-var companyPhone = "+44 1278 226747";
+var companyPhone = "+44 7347622673";
+
